@@ -90,6 +90,23 @@ String z="";
                 readstate();
 		try
         {
+			BufferedReader in = new BufferedReader(new FileReader("B:\\STEProbab.txt"));	//reading files in specified directory
+			String line;
+                        in.readLine();
+                        int i=0;
+			while (((line = in.readLine()) !=null)&&(i<h))	//file reading
+{
+    
+   String[] values = line.split(",");
+   for (String str : values)
+   {
+      double str_double = Double.parseDouble(str);
+      matrix[x][y]=str_double;
+     y=y+1;     
+   }
+   y=0;
+     x=1+x;
+     i++;
 		 
 }
                                      
