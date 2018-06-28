@@ -35,25 +35,8 @@ int LengthOfObs;
 
   
          
-public int readstate() {
-                 int x=0, y=0;
-                 int lnum = 0;
 
-		try
-        {
-		BufferedReader in = new BufferedReader(new FileReader("B:\\STEProbab.txt"));	//reading files in specified directory
-			String line;
-                        LineNumberReader lnr = new LineNumberReader(in);
-                        z=in.readLine();
-         
-        }catch( IOException ioException ) {}
-                
-            h=Integer.parseInt(z);
-            return h;
-            }
-            
-            
-  
+        
 
 public void readtransitionProbab() {
 		int x=0, y=0;
