@@ -220,9 +220,9 @@ System.out.println("\nALPHAS OF FORWARD TRELLIS:");
     }
     float Ot;
     Ot =(float) ((arr[8][0]*matrix[2][3])+(arr[8][1]*matrix[2][3]));
-        System.out.println("\nTotal probabilitiy of the observation sequence is below:");
+        System.out.println("\nTotal probabilitiy of the observation sequence is:");
 
-    System.out.println("Ot:"+Ot);
+    System.out.println("Total Probability Ot:"+Ot);
     System.out.println("\n");
     
 
