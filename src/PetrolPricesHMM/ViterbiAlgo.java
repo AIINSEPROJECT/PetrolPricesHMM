@@ -20,7 +20,19 @@ import java.util.Scanner;
  * @author Smart
  */
 public class ViterbiAlgo {
-    
+     List<String> temp1 = new ArrayList<>();
+    List<String> temps = new ArrayList<>();
+    double[][] matrix = new double[20][20];
+    double[][] matrix1 = new double[100][100];
+      double[][] v = new double[100][100];
+
+  int h ;
+String z="";
+        String s1;
+      String str_data = "";
+     public int readstate() {
+                 int x=0, y=0;
+                 int lnum = 0;
 
 		try
         {
