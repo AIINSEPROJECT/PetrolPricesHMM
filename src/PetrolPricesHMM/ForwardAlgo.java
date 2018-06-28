@@ -20,7 +20,6 @@ import java.util.Scanner;
  * @author Smart
  */
 public class ForwardAlgo {
-        int LengthOfObs=9;         List<String> temps = new ArrayList<>();
 
 
          float pi[]=new float[10];      float[][] matrix1 = new float[100][100];
