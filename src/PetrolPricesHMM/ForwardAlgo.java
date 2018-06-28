@@ -22,7 +22,9 @@ import java.util.Scanner;
 public class ForwardAlgo {
 int LengthOfObs=9;         List<String> temps = new ArrayList<>();
 
-         
+         float pi[]=new float[10];      float[][] matrix1 = new float[100][100];
+-         String p="",p1="";
+-         int s;
    float[][] matrix = new float[100][100];
    float[][]arr=new float[100][100];
        int h ;
