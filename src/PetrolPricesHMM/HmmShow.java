@@ -27,7 +27,8 @@ public class HmmShow {
          
     
          public int printstate() {
-                 int x=0, y=0;
+                 int x=0, 
+		 y=0;
                  int lnum = 0;
 
 		try
@@ -136,7 +137,7 @@ public class HmmShow {
 
    y=0;
    
-     x=1+x;
+     x=x+1;
      i++;
 
 }
