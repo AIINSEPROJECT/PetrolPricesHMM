@@ -33,7 +33,10 @@ public class HmmShow {
 
 		try
         {
-		
+		BufferedReader in = new BufferedReader(new FileReader("B:\\STEProbab.txt"));	//reading files in specified directory
+			String line;
+                        LineNumberReader lnr = new LineNumberReader(in);
+                        z=in.readLine();
         }catch( IOException ioException ) {}
                 
             h=Integer.parseInt(z);
