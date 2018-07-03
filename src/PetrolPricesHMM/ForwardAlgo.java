@@ -208,7 +208,7 @@ public void m1() throws FileNotFoundException, IOException{
 public void CalculateTotalProbabOfobs() throws IOException{
     Storealphaij();
     readtransitionProbab();
-System.out.println("\nALPHAS OF FORWARD TRELLIS:");
+System.out.println("\nALPHAS OF FORWARD TRELLIS:"); 
 
     for (int i=0;i<9;i++){
 
