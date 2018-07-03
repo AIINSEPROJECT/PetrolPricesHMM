@@ -247,7 +247,7 @@ if("90.24".equals(temp1.get(i))){
           }
       
       }
-      System.out.println("The most likely prices sequence for the given observation is :");
+      
        for(int i=0;i<temps.size();i++){
         System.out.print(temps.get(i)+"\n");
     }
