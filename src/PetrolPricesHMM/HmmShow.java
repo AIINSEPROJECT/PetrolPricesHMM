@@ -132,7 +132,7 @@ public class HmmShow {
       System.out.print(" "+matrix1[x][y]);
      y=y+1;     
    }
-         
+    System.out.print("\n");     
 
    y=0;
    
