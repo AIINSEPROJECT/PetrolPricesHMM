@@ -137,9 +137,6 @@ int i=0;
  
         
 }
-    public State output(){
-        return state;
-    }
     
     
     
