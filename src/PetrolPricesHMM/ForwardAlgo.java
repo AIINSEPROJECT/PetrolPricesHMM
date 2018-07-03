@@ -209,7 +209,7 @@ public void CalculateTotalProbabOfobs() throws IOException{
     Storealphaij();
     readtransitionProbab();
 
-
+System.out.println("\nALPHAS OF FORWARD TRELLIS:");
     for (int i=0;i<9;i++){
 
         for(int j=0;j<2;j++){
