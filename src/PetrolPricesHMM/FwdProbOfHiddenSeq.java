@@ -230,6 +230,7 @@ double total = f*r*matrix[x][E];
 
 
      System.out.println("\nProbab of hidd seq");
+	  System.out.println(total);
      
      }
 }
