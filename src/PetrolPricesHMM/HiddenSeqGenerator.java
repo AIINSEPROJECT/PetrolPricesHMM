@@ -137,10 +137,10 @@ int i=0;
  
         
 }
-    public State output(){
+   public State output(){
         return state;
     }
-    
+     
     
     
    
