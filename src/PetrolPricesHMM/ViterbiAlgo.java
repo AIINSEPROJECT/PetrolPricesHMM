@@ -116,63 +116,7 @@ String z="";
               
               
    }
-     public void valueOfVs() throws FileNotFoundException{
-         System.out.println("Value of Vs for viterbi:\n");
-int o; int I=1;int D=2;int S=0;
-   readtransitionProbab();
-   reademissionProbab();
-   Scanner inFile1 = new Scanner(new File("B:\\obsSeq.txt")).useDelimiter(",");
-                            inFile1.nextLine();
-                            inFile1.nextLine();
-                            String token1 = "";
-    while (inFile1.hasNext()) {
-     token1 = inFile1.next();
-      temp1.add(token1);
-    } inFile1.close();    
-  
-   if("90.24".equals(temp1.get(0))){
-                     o=2;      }
-  else if("76.98".equals(temp1.get(0))){
- o=1;                          }
-  else{
- o=0;}
-  v[0][1] = matrix[S][I]*matrix1[I][o];
-  v[0][0] = matrix[S][D]*matrix1[D][o];
-
-for(int i=1;i<9;){
-   int j=0;
-if("90.24".equals(temp1.get(i))){
-                     o=2;      }
-  else if("76.98".equals(temp1.get(i))){
- o=1;                          }
-  else{
- o=0;}
-
-      if(matrix[D][D]*matrix1[D][o]*v[i-1][j]<matrix[I][D]*matrix1[D][o]*v[i-1][j+1]){
-     v[i][j]=matrix[I][D]*matrix1[D][o]*v[i-1][j+1];
-
-
-    }else{v[i][j]=matrix[D][D]*matrix1[D][o]*v[i-1][j];}   
-      
-    
-      if(matrix[I][I]*matrix1[I][o]*v[i-1][j+1]<matrix[D][I]*matrix1[I][o]*v[i-1][j]){
-     v[i][j+1]=matrix[D][I]*matrix1[I][o]*v[i-1][j];
-    }else{v[i][j+1]=matrix[I][I]*matrix1[I][o]*v[i-1][j+1];}
-    
- 
- i++;  
- }
- for(int i=0;i<9;){
-    for(int j=0;j<2;){
-
- System.out.println("V"+(i+1)+(j+1)+":"+v[i][j]);
- j++;
- }
-    i++;
- }
- 
- }
- 
+     
      
    public void viterbi() throws FileNotFoundException{
    int o;
