@@ -31,7 +31,11 @@ int LengthOfObs=9;         List<String> temps = new ArrayList<>();
        int h ;
 String z="";
         
-
+ String s1;
+      String str_data = "";
+ public int readstate() {
+                 int x=0, y=0;
+                 int lnum = 0;
 		try
         {
 		BufferedReader in = new BufferedReader(new FileReader("B:\\STEProbab.txt"));	//reading files in specified directory
