@@ -30,11 +30,7 @@ int LengthOfObs=9;         List<String> temps = new ArrayList<>();
    float[][]arr=new float[100][100];
        int h ;
 String z="";
-        String s1;
-      String str_data = "";
- public int readstate() {
-                 int x=0, y=0;
-                 int lnum = 0;
+        
 
 		try
         {
