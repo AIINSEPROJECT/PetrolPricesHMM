@@ -33,7 +33,7 @@ emission and transitional probabilty are defined in STEProbab.txt as:
 
 Transition probablities:
 
-  STATES START INFLATION DEFLATION END       
+START INFLA DEFLA END       
    
 S 0.0, 0.7, 0.3,0.0
 
