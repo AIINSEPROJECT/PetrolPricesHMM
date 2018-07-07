@@ -33,7 +33,7 @@ emission and transitional probabilty are defined in STEProbab.txt as:
 
 Transition probablities:
 
-START INFLA DEFLA END       
+START   I     D END       
    
 S 0.0, 0.7, 0.3,0.0
 
