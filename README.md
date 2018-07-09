@@ -40,6 +40,7 @@ Transition probablities:
 ///1:start 2:inflation 3:deflation 4:end
      
    1    2  3    4
+   
 1 0.0 0.7 0.3 0.0
 
 2 0.0 0.6 0.3 0.1
