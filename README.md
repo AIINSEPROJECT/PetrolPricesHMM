@@ -51,7 +51,7 @@ Transition probablities:
 
 EMISSION PROBAB:
 
- |  | ||O1|| ||O2|| ||O3|| 
+ |  | ||O1||O2||O3|| 
 
 
 ||1||0.0, 0.0, 0.0
